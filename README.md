@@ -49,6 +49,6 @@ Figma tasarımına [buradan](https://www.figma.com/file/F9d8ov4lPf3cfzTr9PyK5v/R
 
 ## Demo
 
-Projenin çalışan hali için [demo sayfasına](#) göz atabilirsiniz.
+Projenin çalışan hali için [demo sayfasına](https://rastmobile-datagrid.vercel.app/) göz atabilirsiniz.
 
 Bu proje, iş başvurusunun değerlendirilmesi için hazırlanmıştır.

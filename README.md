@@ -40,7 +40,7 @@ Projenin kullanımı oldukça basittir. Aşağıdaki adımları takip ederek pro
 
 4. **Tarayıcıda Görüntüleme**
    ```
-   http://localhost:4000
+   http://localhost:4200
    ```
 
 ## Tasarım

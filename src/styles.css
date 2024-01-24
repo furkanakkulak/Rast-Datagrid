@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-poppins;
+}
+
+body {
+  @apply px-2 lg:px-10
+}
+
+.social-table {
+  @apply w-full text-sm text-left;
+}
+
+.social-table th, .social-table td {
+  @apply border px-6 py-5 border-transparent ;
+}
+
+ .social-table thead {
+  @apply bg-white border-b-2 border-b-[#C4CEE5];
+}
+.social-table thead th{
+  @apply bg-white border-t-0 border-l-0 border-r-2 border-r-[#C4CEE5];
+}
+
+.social-table td {
+  @apply border-y-0;
+}
+
+.social-table thead th, .social-table td {
+  @apply border-r-2 border-r-[#C4CEE5]
+}
+
+
+.social-table thead th:last-child, .social-table td:last-child {
+  @apply border-r-0;
+}
+
+.social-table tr {
+  @apply border-y-0 bg-white shadow-sm;
+}
+
+.social-table tr:nth-child(2n) {
+  @apply bg-transparent;
+}
+
+

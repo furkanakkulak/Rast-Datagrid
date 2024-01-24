@@ -1,27 +1,54 @@
-# DatagridTask
+# Rast Mobile Datagrid Task
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+Bu proje, Rast Mobile Bilgi Teknolojileri LTD. Şti'nin Datagrid Task'ını tamamlamak için geliştirilmiştir.
 
-## Development server
+## Proje Tanımı
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Bu task, Angular JS kullanılarak bir Datagrid uygulaması yapmayı içermektedir. Proje aşağıdaki özelliklere sahiptir:
 
-## Code scaffolding
+- Kullanıcı dostu bir UI tasarımı [Figma Tasarımı](https://www.figma.com/file/F9d8ov4lPf3cfzTr9PyK5v/RastMobile?type=design&node-id=0-1&t=BwFxN48a0Rw7eQHv-0) temel alınarak oluşturulmuştur.
+- Tasarımsal olarak daha kolay halledebileceğimi düşündüğüm için datagrid özelliğini kendim elle oluşturdum.
+- Proje Angular'da modüler bir yapıya bölünmüş, component ve service'leri içermektedir.
+- Tasarım responsive olarak kodlanmıştır.
+- Veri nesneleri için model oluşturulmuştur.
+- Karmaşık kod bloğu bulunmadığı için yorum satırına ihtiyaç duyulmamıştır.
+- Kolayca çalıştırılabilmesi adına Nasıl Kullanılır başlığına bakılabilir.
+- Girilen veriler localStorage'de saklanmaktadır.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Nasıl Kullanılır
 
-## Build
+Projenin kullanımı oldukça basittir. Aşağıdaki adımları takip ederek projeyi kullanabilirsiniz.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. **Projeyi İndirme**
 
-## Running unit tests
+   ```
+   git clone https://github.com/furkanakkulak/Rast-Datagrid.git
+   cd Rast-Datagrid
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. **Bağımlılıkları Yükleme**
 
-## Running end-to-end tests
+   ```
+   npm install
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. **Projeyi Başlatma**
 
-## Further help
+   ```
+   ng serve
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. **Tarayıcıda Görüntüleme**
+   ```
+   http://localhost:4000
+   ```
+
+## Tasarım
+
+Figma tasarımına [buradan](https://www.figma.com/file/F9d8ov4lPf3cfzTr9PyK5v/RastMobile?type=design&node-id=0-1&t=BwFxN48a0Rw7eQHv-0) ulaşabilirsiniz.
+
+## Demo
+
+Projenin çalışan hali için [demo sayfasına](#) göz atabilirsiniz.
+
+Bu proje, iş başvurusunun değerlendirilmesi için hazırlanmıştır.
